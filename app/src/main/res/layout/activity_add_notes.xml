@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AddNoteActivity">
+
+    <include android:id="@+id/toolbar_title" layout="@layout/toolbar_common"/>
+
+    <EditText
+        android:background="@color/appColor"
+        android:padding="12dp"
+        android:gravity="start"
+        android:textColorHint="@color/white"
+        android:hint="Enter a notes"
+        android:id="@+id/et_name"
+        android:textColor="@color/white"
+        android:layout_below="@+id/toolbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </EditText>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Notes"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:layout_marginTop="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

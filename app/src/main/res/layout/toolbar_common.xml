@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profile"
+        android:onClick="onClickProfile"
+        android:visibility="gone"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_placeholder"
+        android:layout_marginLeft="15dp"
+        app:civ_border_color="@color/appColor"
+        app:civ_border_width="1dp"
+        android:layout_centerVertical="true"/>
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_centerInParent="true"
+        android:includeFontPadding="false"
+        android:textColor="@color/appColor"
+        android:fontFamily="@font/open_sens_semibold"
+        android:textSize="18dp"/>
+
+    <ImageView
+        android:id="@+id/iv_logout"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="25dp"
+        android:visibility="gone"
+        app:tint="@color/appColor"
+        android:layout_marginRight="15dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_logout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:id="@+id/iv_update"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="25dp"
+        android:visibility="gone"
+        android:onClick="onUpdateClick"
+        app:tint="@color/appColor"
+        android:layout_marginRight="15dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_tick"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        tools:ignore="ContentDescription" />
+    <ImageView
+        android:id="@+id/iv_back"
+         android:layout_centerVertical="true"
+        android:layout_width="25dp"
+        android:visibility="gone"
+        app:tint="@color/appColor"
+        android:layout_marginLeft="15dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_back"
+        android:layout_marginStart="15dp"
+        tools:ignore="ContentDescription" />
+
+
+    <View
+        android:background="@color/appColor"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

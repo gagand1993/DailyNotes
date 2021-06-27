@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "435983136401",
+    "project_id": "dailynotes-318009",
+    "storage_bucket": "dailynotes-318009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435983136401:android:54f046dc8b301be5153130",
+        "android_client_info": {
+          "package_name": "com.dailynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435983136401-dru4vt5bc4v2eudkide13hnkqb3vouhd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dailynotes",
+            "certificate_hash": "0261382ded02b538b1a2a44a4e31e91bfeedc180"
+          }
+        },
+        {
+          "client_id": "435983136401-a76oplbdggicbetagndev59tk7a4v3dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2VjTU3v4oD9jZ3Ygs0i52gksEe8ljq2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435983136401-a76oplbdggicbetagndev59tk7a4v3dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

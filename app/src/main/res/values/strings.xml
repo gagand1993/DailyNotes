@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Daily Notes</string>
+    <string name="save_pref_name">DailyNotes</string>
+    <string name="info_update">Info Update</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="add_notes">Add Note</string>
+    <string name="update_notes">Update Note</string>
+    <string name="title">Title</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_your_email_address_below_to_forgot_password">Enter your email address below to forgot password</string>
+    <string name="edit_profile">Edit Profile</string>
+</resources>
